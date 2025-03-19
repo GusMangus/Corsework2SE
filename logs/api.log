@@ -1,0 +1,66 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:36] "GET /user/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:36:44] "GET /api/posts HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:40:27] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 16:42:09] "GET /api/posts/3 HTTP/1.1" 200 -
+2025-03-18 17:06:17,592 : INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:06:17,592 : INFO : [33mPress CTRL+C to quit[0m
+2025-03-18 17:06:31,503 : INFO : 127.0.0.1 - - [18/Mar/2025 17:06:31] "GET /api/posts/3 HTTP/1.1" 200 -
+2025-03-18 17:08:27,632 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:08:27,632 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-18 17:08:34,688 [INFO] 127.0.0.1 - - [18/Mar/2025 17:08:34] "GET /api/posts/2 HTTP/1.1" 200 -
+2025-03-19 19:15:50,869 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 19:15:50,869 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-19 19:16:59,826 [INFO] 127.0.0.1 - - [19/Mar/2025 19:16:59] "GET / HTTP/1.1" 200 -
+2025-03-19 19:17:00,062 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2025-03-19 19:17:00,062 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2025-03-19 19:17:00,062 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2025-03-19 19:17:02,276 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:02] "GET /user/leo HTTP/1.1" 200 -
+2025-03-19 19:17:02,325 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2025-03-19 19:17:02,341 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2025-03-19 19:17:02,341 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2025-03-19 19:17:04,433 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:04] "GET /user/leo HTTP/1.1" 200 -
+2025-03-19 19:17:04,490 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2025-03-19 19:17:04,490 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2025-03-19 19:17:04,490 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2025-03-19 19:17:06,958 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:06] "[32mGET /post/1 HTTP/1.1[0m" 308 -
+2025-03-19 19:17:07,007 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:07] "GET /post/1/ HTTP/1.1" 200 -
+2025-03-19 19:17:07,067 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2025-03-19 19:17:07,083 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2025-03-19 19:17:07,083 [INFO] 127.0.0.1 - - [19/Mar/2025 19:17:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2025-03-19 19:50:20,617 [INFO] 127.0.0.1 - - [19/Mar/2025 19:50:20] "[33mGET /api/post/1/ HTTP/1.1[0m" 404 -
+2025-03-19 19:50:33,031 [INFO] 127.0.0.1 - - [19/Mar/2025 19:50:33] "[33mGET /api/post/1 HTTP/1.1[0m" 404 -
+2025-03-19 19:50:51,026 [INFO] 127.0.0.1 - - [19/Mar/2025 19:50:51] "[33mGET /api/posts/1/ HTTP/1.1[0m" 404 -
+2025-03-19 19:51:11,884 [INFO] 127.0.0.1 - - [19/Mar/2025 19:51:11] "[33mGET /api/posts/1/ HTTP/1.1[0m" 404 -
+2025-03-19 19:51:20,878 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 19:51:20,894 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-19 19:51:23,854 [INFO] 127.0.0.1 - - [19/Mar/2025 19:51:23] "[33mGET /api/posts/1/ HTTP/1.1[0m" 404 -
+2025-03-19 19:52:46,803 [INFO] 127.0.0.1 - - [19/Mar/2025 19:52:46] "GET /api/posts HTTP/1.1" 200 -
+2025-03-19 19:52:55,170 [INFO] 127.0.0.1 - - [19/Mar/2025 19:52:55] "GET /api/posts/1 HTTP/1.1" 200 -
+2025-03-19 19:54:43,064 [INFO] 127.0.0.1 - - [19/Mar/2025 19:54:43] "GET /api/posts/2 HTTP/1.1" 200 -

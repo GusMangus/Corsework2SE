@@ -4,7 +4,6 @@ from utils import get_posts_all, get_comments_by_post_id, load_comments, get_pos
 keys_should_be = {"poster_name", "poster_avatar", "pic", "content", "views_count", "likes_count", "pk"}
 
 
-
 class TestUtils:
 
     def test_get_posts_all(self):

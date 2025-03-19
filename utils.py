@@ -1,8 +1,6 @@
 import json
+from config import post_path, comments_path
 
-
-post_path = 'data/posts.json'
-comments_path = "data/comments.json"
 
 
 def get_posts_all() -> list[dict]:
